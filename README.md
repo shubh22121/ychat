@@ -1,4 +1,4 @@
-### ychat
+# ychat
 
 ## Real-Time Chat app
 
