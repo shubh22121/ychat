@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% load static %}
 <style>
 body {
   margin: 0 auto;
@@ -54,9 +55,10 @@ body {
 </style>
 </head>
 <body>
-
+<body bgcolor="black" style="background-size: cover;" align="center" >
+    <img src="/static/img/ychatd.png/">
 <div align="center">
-    <h2>ychat</h2>
+    <a href="https://fontmeme.com/graffiti-creator/"><img src="https://fontmeme.com/permalink/211015/2e8a15da06b885c81401cc786147e124.png" alt="graffiti-creator" border="0"></a>
 </div>
 
 
@@ -94,6 +96,7 @@ body {
     }
     </style>
 
+
     <form id="post-form" method="POST" action="checkview">
         {% csrf_token %}
         <label>Room Name</label>
@@ -102,8 +105,10 @@ body {
         <input type="text" name="username" id="username" width="100px" />
         <input type="submit" value="Enter Room">
     </form>
+
 </div>
 
+</body>
 
 </body>
 
